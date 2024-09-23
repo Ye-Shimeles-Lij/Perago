@@ -1,0 +1,30 @@
+{
+"id": 1,
+"name": "CEO",
+"discription": "boss",
+"parentid": null,
+},
+{
+"id": 2,
+"name": "CTO",
+"discription": "Reports to CEO",
+"parentid": 1,
+},
+{
+"id": 3,
+"name": "CFO",
+"discription": "Reports to CEO",
+"parentid": 1,
+},
+{
+"id": 6,
+"name": "Project Manager",
+"discription": "Reports to CTO",
+"parentid": 2,
+},
+{
+"id": 13,
+"name": "Product owner",
+"discription": "Reports to project manager",
+"parentid": 6,
+}
